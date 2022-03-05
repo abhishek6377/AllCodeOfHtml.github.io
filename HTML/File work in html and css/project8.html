@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javasccript">
+        var imloccation="images/";
+        var currentdate=0;
+        var image_numberr=0;
+        function ImageArray(n){
+            this.length=n;
+            for(var i=1;i<=n;i++){
+                this[i]=''
+            
+            }
+        }
+        image =new ImageArray(13)
+        image[0]="C:/Users/Abhishek/Desktop/HTML/assets/images/1 (4).jpg";
+        image[1]='2.jpg'
+        image[2]='3.jpg'
+        image[3]='4.jpg'
+        image[4]='5.jpg'
+        image[5]='6.jpg'
+        image[6]='7.jpg'
+        image[7]='8.jpg'
+        image[8]='9.jpg'
+        image[9]='10.jpg'
+        image[10]='11.jpg'
+        image[11]='12.jpg'
+        image[12]='13.jpg'
+        image[13]='14.jpg'
+        image[14]='15.jpg'
+        image[15]='16.jpg'
+        image[16]='17.jpg'
+        image[17]='18.jpg'
+        image[18]='19.jpg'
+        var rand =60/image.length
+        functiongetRandomInt(mim,max){
+            min=Math.ceil(min);
+            max=Math.floor(max);
+            return Math.floor(Math.random()*(max-min))+min;
+
+        }
+        document.write('<img src="images/'+getRandomint(1,20)+'.jpg">');
+    </script>
+</body>
+</html>

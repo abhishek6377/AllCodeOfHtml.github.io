@@ -1,0 +1,16 @@
+h1{
+	color:red;
+}
+body{
+	background-color:red;
+}
+h2{
+	background-color:blue;
+}
+.class{
+	color:white;
+}
+#id{
+	background-color:green;
+	color:pink;
+}

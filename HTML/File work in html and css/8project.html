@@ -1,0 +1,14 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="banner-images"> </div>
+<script> 
+var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
+ 
+$('<img class="fade-in" width="30%" src="' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-images');
+</script>
+</body>
+</html>
